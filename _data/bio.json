@@ -1,39 +1,39 @@
 {
   "basics": {
-    "name": "Florian Lloret",
+    "name": "Capucine GAMANT",
     "label": "Master’s student in game development",
-    "picture": "https://github.com/ceaura.png",
+    "picture": "https://github.com/capu-gmt.png",
     "email": "florianlloret13012@gmail.com",
     "phone": "06 17 30 57 19",
-    "website": "https://ceaura.github.io/",
+    "website": "https://capu-gmt.github.io/",
     "summary": "Master’s student in game development, passionate about creating games and exploring new ways to bring ideas to life. I expect to graduate in Summer 2026.",
-    "location": { "address": "", "postalCode": "13000", "city": "Marseille", "countryCode": "FR", "region": "" },
+    "location": { "address": "", "postalCode": "14000", "city": "Caen", "countryCode": "FR", "region": "" },
     "profiles": [
       { "network": "controller", "username": "ceaura", "url": "https://ceaura.itch.io/" },
-      { "network": "linkedin", "username": "Florian Lloret", "url": "https://www.linkedin.com/in/florian-lloret-a48b6421a/" },
+      { "network": "linkedin", "username": "Capucine Gamant", "url": "https://www.linkedin.com/in/capucine-gamant-0765b9274/" },
       { "network": "file-earmark-text", "username": "Resume", "url": "https://drive.proton.me/urls/7JDKY7BHW8#a4vNQr9NAzWh" }
     ]
   },
   "interests": [
-    { "name": "Game development" },
-    { "name": "Instructional design" },
-    { "name": "Game design" },
-    { "name": "Mobile development" }
+    { "name": "Interest 1" },
+    { "name": "Interest 2" },
+    { "name": "Interest 3" },
+    { "name": "Interest 4" }
   ],
   "skills": [
     {
-      "name": "Languages",
-      "keywords": [ "C", "C#", "C++", "Java", "GdScript"]
+      "name": "Communication",
+      "keywords": [ "Canva", "Figma", "Photoshop"]
     },
     {
-      "name": "Game engine",
-      "keywords": [ "Unity", "Unreal engine 5", "Godot"]
+      "name": "Other skills",
+      "keywords": [ "Skills 1", "Skills 2"]
     }
   ],
   "education": [
     {
       "institution": "INU Champollion, Albi, France",
-      "area": "Audiovisuel, Médias Interactifs Numériques, Jeu",
+      "area": "Etudes Européennes Internationales",
       "studyType": "Master",
       "startDate": "2024",
       "endDate": "2026",
@@ -43,7 +43,7 @@
   ],
   "work": [
     {
-      "company": "Nexio informatique",
+      "company": "Stage 1",
       "position": "Mobile Developer",
       "website": "https://www.nexio.info/",
       "startDate": "September 2023",
