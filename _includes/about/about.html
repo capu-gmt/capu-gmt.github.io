@@ -6,13 +6,27 @@
       </div>
       <div class="col-lg-8">
         <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
-        <p class="lead text-center">{{ site.data.bio.basics.label }}</p>
-        <p class="lead">{{ site.data.bio.basics.summary }}</p>
+        <p class="lead text-center">
+          <span class="tf-lang-fr">{{ site.data.bio.basics.label }}</span>
+          <span class="tf-lang-en">{{ site.data.bio.basics.label_en | default: site.data.bio.basics.label }}</span>
+          <span class="tf-lang-es">{{ site.data.bio.basics.label_es | default: site.data.bio.basics.label }}</span>
+        </p>
+        <p class="lead">
+          <span class="tf-lang-fr">{{ site.data.bio.basics.summary }}</span>
+          <span class="tf-lang-en">{{ site.data.bio.basics.summary_en | default: site.data.bio.basics.summary }}</span>
+          <span class="tf-lang-es">{{ site.data.bio.basics.summary_es | default: site.data.bio.basics.summary }}</span>
+        </p>
         <hr class="my-4">
         <p class="lead m-0">
-          Interests:
+          <span class="tf-lang-fr">Intérêts :</span>
+          <span class="tf-lang-en">Interests:</span>
+          <span class="tf-lang-es">Intereses:</span>
           {% for interest in site.data.bio.interests %}
-          {{ interest.name }}{% if forloop.last != true %}, {% endif %}
+          <span>
+            <span class="tf-lang-fr">{{ interest.name }}</span>
+            <span class="tf-lang-en">{{ interest.name_en | default: interest.name }}</span>
+            <span class="tf-lang-es">{{ interest.name_es | default: interest.name }}</span>
+          </span>{% if forloop.last != true %}, {% endif %}
           {% endfor %}
         </p>
         <hr class="my-4">

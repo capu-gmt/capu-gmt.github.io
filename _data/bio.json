@@ -1,12 +1,16 @@
 {
   "basics": {
     "name": "Capucine GAMANT",
-    "label": "Master’s student in game development",
+    "label": "Étudiante en Master",
+    "label_en": "Master's Student",
+    "label_es": "Estudiante de Máster",
     "picture": "https://github.com/capu-gmt.png",
     "email": "florianlloret13012@gmail.com",
     "phone": "06 17 30 57 19",
     "website": "https://capu-gmt.github.io/",
-    "summary": "Master’s student in game development, passionate about creating games and exploring new ways to bring ideas to life. I expect to graduate in Summer 2026.",
+    "summary": "Étudiante en Master, passionnée par...",
+    "summary_en": "Master's student, passionate about...",
+    "summary_es": "Estudiante de Máster, apasionada por...",
     "location": { "address": "", "postalCode": "14000", "city": "Caen", "countryCode": "FR", "region": "" },
     "profiles": [
       { "network": "controller", "username": "ceaura", "url": "https://ceaura.itch.io/" },
@@ -15,90 +19,99 @@
     ]
   },
   "interests": [
-    { "name": "Interest 1" },
-    { "name": "Interest 2" },
-    { "name": "Interest 3" },
-    { "name": "Interest 4" }
+    { "name": "Intérêt 1", "name_en": "Interest 1", "name_es": "Interés 1" },
+    { "name": "Intérêt 2", "name_en": "Interest 2", "name_es": "Interés 2" },
+    { "name": "Intérêt 3", "name_en": "Interest 3", "name_es": "Interés 3" },
+    { "name": "Intérêt 4", "name_en": "Interest 4", "name_es": "Interés 4" }
   ],
   "skills": [
     {
       "name": "Communication",
+      "name_en": "Communication",
+      "name_es": "Comunicación",
       "keywords": [ "Canva", "Figma", "Photoshop"]
     },
     {
-      "name": "Other skills",
-      "keywords": [ "Skills 1", "Skills 2"]
+      "name": "Autres compétences",
+      "name_en": "Other skills",
+      "name_es": "Otras habilidades",
+      "keywords": [ "Compétence 1", "Compétence 2"]
     }
   ],
   "education": [
     {
       "institution": "INU Champollion, Albi, France",
-      "area": "Etudes Européennes Internationales",
+      "area": "Études Européennes Internationales",
+      "area_en": "International European Studies",
+      "area_es": "Estudios Europeos Internacionales",
       "studyType": "Master",
       "startDate": "2024",
       "endDate": "2026",
-      "courses": [
-      ]
+      "courses": []
     }
   ],
   "work": [
     {
       "company": "Stage 1",
-      "position": "Mobile Developer",
+      "position": "Poste 1",
+      "position_en": "Position 1",
+      "position_es": "Puesto 1",
       "website": "https://www.nexio.info/",
       "startDate": "September 2023",
       "endDate": "July 2024",
-      "summary": "X",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
+      "summary": "Description du stage.",
+      "summary_en": "Internship description.",
+      "summary_es": "Descripción de la práctica.",
+      "highlights": []
     },
     {
-      "company": "Opto",
-      "position": "Mobile Developer",
+      "company": "Stage 2",
+      "position": "Poste 2",
+      "position_en": "Position 2",
+      "position_es": "Puesto 2",
       "website": "https://opto-gmbh.com/fr/",
       "startDate": "March 2023",
       "endDate": "June 2023",
-      "summary": "X",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
+      "summary": "Description du stage.",
+      "summary_en": "Internship description.",
+      "summary_es": "Descripción de la práctica.",
+      "highlights": []
     }
   ],
   "volunteer": [
     {
       "organization": "Association AFEV",
       "website": "https://afev.org/en",
-      "position": "Volunteer",
+      "position": "Bénévole",
+      "position_en": "Volunteer",
+      "position_es": "Voluntaria",
       "startDate": "October 2024",
       "endDate": "June 2025",
-      "summary": "X",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
+      "summary": "Description de l'activité bénévole.",
+      "summary_en": "Volunteer activity description.",
+      "summary_es": "Descripción de la actividad de voluntariado.",
+      "highlights": []
     },
     {
       "organization": "Les comploteurs festifs",
       "website": "https://www.instagram.com/les_comploteurs_festifs/?hl=en",
-      "position": "Volunteer at the catering stand",
+      "position": "Bénévole au stand restauration",
+      "position_en": "Volunteer at the catering stand",
+      "position_es": "Voluntaria en el stand de restauración",
       "startDate": "April 2025",
       "endDate": "April 2025",
       "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
+      "summary_en": "",
+      "summary_es": "",
+      "highlights": []
     }
   ],
-  "awards": [
-  ],
+  "awards": [],
   "references": [
     {
-      "name": "Available upon request"
+      "name": "Disponibles sur demande",
+      "name_en": "Available upon request",
+      "name_es": "Disponibles bajo petición"
     }
   ]
 }

@@ -39,9 +39,16 @@
     {% endif %}
 
     <title>{{ title }}</title>
+    <style>
+      /* i18n: cacher EN et ES par défaut, FR affiché nativement */
+      .tf-lang-en, .tf-lang-es { display: none; }
+      /* Bouton langue actif */
+      .tf-lang-btn.active { font-weight: 700; }
+    </style>
   </head>
   <body>
   {{ content }}
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="{{ site.baseurl }}/js/i18n.js"></script>
   </body>
 </html>
